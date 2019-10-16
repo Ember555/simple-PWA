@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <Router history={browserHistory}>
         <Route path="/" component={FirstPage} />
-        <Route path="/profile" component={SecondPage} />
+        <Route path="/second" component={SecondPage} />
       </Router>
     )
   }

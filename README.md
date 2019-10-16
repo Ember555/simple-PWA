@@ -72,3 +72,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
 https://blog.expo.io/enabling-ios-splash-screens-for-progressive-web-apps-34f06f096e5c
 https://dev.to/akshaykumar6/progressive-web-apps-custom-splash-screen-ce7
+https://blog.bitsrc.io/how-to-build-a-react-progressive-web-application-pwa-b5b897df2f0a
