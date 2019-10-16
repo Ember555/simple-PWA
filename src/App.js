@@ -1,32 +1,25 @@
 import React, { Component } from "react"
 
-import { Router, browserHistory, Route, Link } from "react-router"
+import { Router, browserHistory, Route } from "react-router"
+import FirstPage from "./pages/first"
+import SecondPage from "./pages/second"
 
 import "./App.css"
 
-const NavBar = () => (
-  <div className="navbar">
-    <Link to="/">Feed</Link>
-    <Link to="/profile">Profile</Link>
-  </div>
-)
-
-const Template = ({ title }) => (
-  <div>
-    <NavBar />
-    <p className="page-info">This is the {title} page.</p>
-  </div>
-)
-
-const Feed = props => <Template title="Feed" />
-const Profile = props => <Template title="Profile" />
+// for debugging
+// (function() {
+//   if(window.localStorage)
+//     console.log("Local Storage Supported")
+//   else
+//     console.log("Local Storage Not Supported")
+// })();
 
 class App extends Component {
   render() {
     return (
       <Router history={browserHistory}>
-        <Route path="/" component={Feed} />
-        <Route path="/profile" component={Profile} />
+        <Route path="/" component={FirstPage} />
+        <Route path="/profile" component={SecondPage} />
       </Router>
     )
   }

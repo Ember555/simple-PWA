@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Reference
+
+https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
+https://blog.expo.io/enabling-ios-splash-screens-for-progressive-web-apps-34f06f096e5c
+https://dev.to/akshaykumar6/progressive-web-apps-custom-splash-screen-ce7
